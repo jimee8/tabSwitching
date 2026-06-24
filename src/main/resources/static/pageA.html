@@ -1,22 +1,25 @@
 <!DOCTYPE html>
-
 <html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>cat on main page</title>
+        <title>cat on page a</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <p>This is page A</p>
 
-        <p>This is the main cat</p>
-        
-        <div class="container">
-            <button id="btnA">Go to page A</button>
-            <button id="btnB">Go to page B</button>
+        <label id="display">0</label>
+
+        <div id="buttonContainer">
+            <button id="plusBtn" class = "button">+</button>
+            <button id="minusBtn" class = "button">-</button>
+            <button id="resetBtn" class = "button">reset</button>
         </div>
+
+        <button id="backBtn">Back</button>
         
         <script src="script.js" async defer></script>
     </body>
