@@ -9,17 +9,17 @@ public class SwitchController {
     @GetMapping("/redirect")
     public String handleRequest(@RequestParam(value = "page", required = false) String page) {
         if ("A".equals(page)) {
-            return "redirect:http://127.0.0.1:5500/src/main/resources/static/pageA.html";
+            return "redirect:/pageA.html";
         }
         else if ("B".equals(page)) {
-            return "redirect:http://127.0.0.1:5500/src/main/resources/static/pageB.html";
+            return "redirect:/pageB.html";
         }
-        return "redirect:http://127.0.0.1:5500/src/main/resources/static/index.html";
+        return "redirect:/index.html";
     }
 
     @GetMapping("/back")
     public String handleBack(){
-        return "redirect:http://127.0.0.1:5500/src/main/resources/static/index.html";
+        return "redirect:/index.html";
     }
 
     

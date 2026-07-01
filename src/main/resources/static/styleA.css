@@ -1,8 +1,11 @@
+* {
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+}
+
 #display{
-    display:block;
+    display: block;
     text-align: center;
     font-size: 10em;
-    font-family: Helvetica;
 }
 
 #minusBtn{
@@ -13,7 +16,7 @@
     background-color: red;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.25;
+    transition: background-color 0.25s;
 }
 #minusBtn:hover{
     background-color: darkred;
@@ -27,7 +30,7 @@
     background-color: grey;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.25;
+    transition: background-color 0.25s;
 }
 #resetBtn:hover{
     background-color: darkgrey;
@@ -41,7 +44,7 @@
     background-color: green;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.25;
+    transition: background-color 0.25s;
 }
 #plusBtn:hover{
     background-color: darkgreen;
@@ -52,4 +55,10 @@
     justify-content: center;
     gap: 15px;
     margin: 20px;
+}
+
+#backBtn{
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }

@@ -16,6 +16,11 @@ public class CounterController {
         return this.count;
     }
 
+    @PostMapping("/display")
+    public int getDisplay(){
+        return this.count;
+    }
+
     @PostMapping("/increment")
     public int increment(){
         this.count++;
