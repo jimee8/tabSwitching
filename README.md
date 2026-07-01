@@ -6,5 +6,5 @@ Although technically a "full stack" program it is not in my eyes. I want to even
 
 
 ## Roadmap
-1. Different types of sorting algorithms
+1. Different types of sorting algorithms, some in mind are insertion sort and quick sort, the user will be allowed to enter how many numbers they want sorted as well as how high the numbers will go    
 2. More simple java programs such as calculator, and weather 
