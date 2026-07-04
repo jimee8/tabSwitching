@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "http://127.0.0.1:8080")
+@CrossOrigin(origins = "*")
 public class CounterController {
 
     private int count = 0;

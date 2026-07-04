@@ -2,7 +2,7 @@
     font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
 }
 
-.counter-container {
+.counter-container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,7 +14,7 @@
 #result{
     display: block;
     text-align: center;
-    font-size:  10em;
+    font-size: 10em;
 }
 
 #generateBtn{

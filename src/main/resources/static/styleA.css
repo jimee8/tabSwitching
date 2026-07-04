@@ -18,6 +18,7 @@
     cursor: pointer;
     transition: background-color 0.25s;
 }
+
 #minusBtn:hover{
     background-color: darkred;
 }
@@ -32,6 +33,7 @@
     cursor: pointer;
     transition: background-color 0.25s;
 }
+
 #resetBtn:hover{
     background-color: darkgrey;
 }
@@ -46,6 +48,7 @@
     cursor: pointer;
     transition: background-color 0.25s;
 }
+
 #plusBtn:hover{
     background-color: darkgreen;
 }

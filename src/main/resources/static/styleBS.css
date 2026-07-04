@@ -1,0 +1,25 @@
+* {
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+}
+
+#sortBtnBS {
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#backBtn{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding-top: 250px;
+}
