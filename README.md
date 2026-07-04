@@ -1,3 +1,7 @@
+<img width="1920" height="1080" alt="screen-capture_1" src="https://github.com/user-attachments/assets/35abd048-d658-4b4b-b665-8b3d2e48c35a" />
+
+
+
 # Tab Switching Program
 This is a simple webpage that is being developed right now. 
 It has buttons that will lead you to the two simple java programs.
