@@ -16,3 +16,7 @@ Although technically a "full stack" program it is not in my eyes. I want to even
 
 ### For me
 This is for me to get more used to java springboot, docker, javascript, html, css, and git
+
+
+### Current Update
+As of July 3 2026, there is a sort tab added but I forgot that there is no way to see bubble sort happen unless I add a visualizer, so that is what I am doing rn
